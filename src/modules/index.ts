@@ -5,6 +5,7 @@ import FunModule from "./FunModule";
 import MiscModule from "./MiscModule";
 import ModerationModule from "./ModerationModule";
 import QuotesModule from "./QuotesModule";
+import SentienceModule from "./SentienceModule";
 
 const modules = [
   FunModule,
@@ -12,6 +13,7 @@ const modules = [
   MiscModule,
   ModerationModule,
   QuotesModule,
+  SentienceModule,
 ];
 
 export const commands = flatten(modules.map((m) => m.commands));

@@ -30,6 +30,7 @@
     "kubernetes-client": "^9.0.0",
     "lodash": "^4.17.21",
     "mime-types": "^2.1.30",
+    "openai-api": "^1.2.3",
     "pino": "^6.11.3"
   }
 }
